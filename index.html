@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="icon" type="image/png" href="gambar/icon.png">
+    <title>Premierro</title>
+  </head>
+
+  <body>
+    <!-- Ini bagian navbar -->
+    <div class="navbar-fixed">
+      <nav class="black">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#tentang" class="brand-logo scrollspy"><img src="gambar/premiero.png" alt="premiero"></a>
+            <!-- biar menunya responsive -->
+            <a href="#" data-target="mobile-navbar" class="sidenav-trigger"><i class="material-icons"><img src="gambar/menu.png"></i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#beranda">Beranda</a></li>
+              <li><a href="#tentang">Tentang Kami</a></li>
+              <li><a href="#klien">Klien</a></li>
+              <li><a href="#layanan">Layanan</a></li>
+              <li><a href="#produk">Produk</a></li>
+              <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </div>
+      </nav>
+      </div>
+    </div>
+    <!-- navbar selesai -->
+
+    <!-- navbar sebelah kiri (ini biar responsive pas webnya dikecilin atau pas di hp)-->
+    <ul class="sidenav" id="mobile-navbar"> <!-- id disini diarahin ke data-target jadi namanya disamaain -->
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#klien">Klien</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+    </ul>
+    <!-- navbar sebelah kiri selesai -->
+
+    <!-- slide atas -->
+    <div id ="beranda" class="slider scrollspy" >
+      <ul class="slides">
+        <li>
+          <img src="gambar/tiga.jpg"> <!-- random image -->
+          <div class="caption right-align">
+            <br><br><br>
+            <h5 class="light grey-text text-lighten-3">Realisasikan <br> gawai yang <br> kamu mau</h5>          
+          </div>
+        </li>
+        <li>
+          <img src="gambar/empat.jpg"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Rekam memori <br> kehidupanmu</h3>  
+          </div>
+        </li>
+        <li>
+          <img src="gambar/satu.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>Tunggu apa lagi</h3>
+              <h5 class="light grey-text text-lighten-3">Pesan produk kami sekarang!</h5><br> 
+              <a href="#kontak"><button type="submit" class="btn black center">Pesan</button></a>       
+          </div>
+        </li>
+      </ul>  
+    </div>  
+    <!-- slide atas selesai -->
+
+    <!-- Ini bagian tentang kami -->
+    <section id="tentang" class="tentang scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="center light">Tentang Kami</h3>
+          <div class="col m6 light">
+            <h5>Kami Adalah Para Ahli</h5>
+            <p>Bermodalkan skill yang mumpuni kami para teknisi premierro melalui
+              jasa kami, kami membuat produk berkualitas sesuai dengan keinginan dan kebutuhan pelanggan.
+              Tak hanya itu, kami berkomitmen untuk menyelesaikan pembuatan produk sebaik mungkin agar produk berada di tangan pelanggan tepat waktu.
+            </p>
+          </div>
+          <div class="col m6 light">
+            <img src="gambar/s1.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- tentang kami selesai -->
+
+    <!-- klien -->
+    <div id = "klien" class="parallax-container scrollspy">
+      <div class="parallax"><img src="gambar/enam.jpg"></div>
+        <div class="container klien">
+          <h3 class="center light">Klien Kami</h3>
+          <h5 class="center light">Apa kata mereka?</h5>
+          
+            <div class="col m4 center">
+              <img src="gambar/sepuluh.png">
+              <img src="gambar/sebelas.png">
+              <img src="gambar/duabelas.png">
+            <section id="kata" class="kata ">
+              <div class="container">
+                <div class="row">
+                  <div class="col m4 s12">
+                    <div class="card-panel center">
+                      <h5>Fan Lu Xi</h5><br>
+                      <p >"Aku tak pernah menemukan perusahaan yang dapat membuat gawai yang aku inginkan seperti Premierro."</p>
+                    </div>
+                  </div>           
+                  <div class="col m4 s12">
+                    <div class="card-panel">
+                      <h5>Thomas Diego</h5><br>
+                      <p>"Pekerjaanku menjadi sangat efisien. Gawai buatan Premierro benar-benar sesuai dengan keinginanku."</p>
+                    </div>
+                  </div>
+                  <div class="col m4 s12">
+                    <div class="card-panel">
+                      <h5>Fransesca Marciano</h5><br>
+                      <p>"Aku hanya yakin bahwa hanya Premierro dapat membuatkan gawai yang kamu mau."</p>
+                    </div>
+                  </div>          
+                </div>
+              </div>
+            </div>  
+      </div>
+    </div>
+    <!-- klien selesai -->
+    
+  <!-- layanan -->
+    <section id="layanan" class="layanan black scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="light center white-text text-lighten-3" >Layanan Kami</h3><br>
+          <div class="col m3 s12">
+            <div class="card-panel center">
+              <i class="material-icons medium">build</i>
+              <h5>Membangun Sistem Operasi Impian</h5>
+              <p>Bangun SO berkualitas sesuai keinginan pelanggan.</p>
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="card-panel center">
+              <i class="material-icons medium">phone_iphone</i>
+              <h5>Merancang Bentuk Gawai</h5>
+              <p>Rancang gawai sesuai keinginan pelanggan dengan material berkualitas.</p>
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="card-panel center">
+              <i class="material-icons medium">lock</i>
+              <h5>Keaslian & Keamanan Produk</h5>
+              <p>Keaslian dan keamanan terjamin sehingga produk aman dibawa kemanapun. </p>
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="card-panel center">
+              <i class="material-icons medium">schedule</i>
+              <h5>Tepat Waktu</h5>
+              <p>Ketepatan waktu sangat diutamakan di perusahaan kami untuk menjaga kepercayaan pelanggan. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- layanan selesai -->
+
+    <!-- produk -->
+    <section id="produk" class="produk scrollspy">
+      <h3 class="light center black-text text-lighten-3">Produk kami</h3>
+      <h5 class="light center black-text text-lighten-3">Berikut produk request dari pelanggan yang berhasil kami realisasikan</h5><br>
+      <div class="container">
+        <div class="row">
+          <div class="col m4 s12">
+            <img src="gambar/p1.jpg" class="responsive-img materialboxed"> 
+          </div>
+          <div class="col m4 s12">
+            <img src="gambar/p2.png" class="responsive-img materialboxed"> 
+          </div>
+          <div class="col m4 s12">
+            <img src="gambar/hape.jpg" class="responsive-img materialboxed"> 
+          </div>
+        </div>
+        <!-- produk bawah -->
+        <div class="row">
+          <div class="col m4 s12">
+            <img src="gambar/hape1.png" class="responsive-img materialboxed"> 
+          </div>
+          <div class="col m4 s12">
+            <img src="gambar/hape7.jpg" class="responsive-img materialboxed"> 
+          </div>
+          <div class="col m4 s12">
+            <img src="gambar/hape4.jpg" class="responsive-img materialboxed"> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- produk selesai -->
+
+    <!-- kontak -->
+    <section id="kontak" class="kontak grey lighten-3 scrollspy">
+      <div class="container">
+        <h3  class="light center black-text text-lighten-3">Kontak Kami</h3>
+      <div class="row">
+        <div class="col m3 s12">
+          <div class="card-panel white center">
+            <br><br>
+            <i class="material-icons ">mail_outline</i><br><br>
+                <div class="container ">
+                  <div class="row center">
+                    <div class="col m3 s12">
+                      <li><a href="https://www.instagram.com/"><img src="gambar/instagram_b.png" class="responsive-img "></a>
+                    </div>
+                    <div class="col m3 s12">
+                      <li><a href="https://web.facebook.com/"><img src="gambar/facebook_b.png" class="responsive-img "></a>
+                    </div>
+                    <div class="col m3 s12">
+                      <li><a href="https://www.linkdin.com/"><img src="gambar/linkedin_b.png" class="responsive-img "></a>
+                    </div>
+                    <div class="col m3 s12">
+                      <li><a href="https://www.youtube.com/"><img src="gambar/youtube_b.png" class="responsive-img "></a>
+                  </div>
+                </div>
+              </div>             
+            <p light center grey-text text-lighten-3>Apabila anda ingin memesan atau sekedar bertanya
+               silakan hubungi kami melalui
+               email ke premierro@gmail.com
+            <p>
+          </div>
+        </div>
+        <div class="col m9 s12">
+          <form>
+            <div class="card-panel white form">
+              <h5 class="light center black-text text-lighten-3">Kirim pesan pada kami melalui form ini</h5>
+              <div class="input-field ">
+                <i class="material-icons prefix">account_circle</i>
+                <input type="text" name="name" id="name" required class="validate">
+                <label for="name">Nama</label>
+              </div>
+              <div class="input-field  ">
+                <i class="material-icons prefix">phone</i>
+                <input type="text" name="phone" id="phone" required class="validate">
+                <label for="phone">Nomor telepon</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">language</i>
+                <input type="text" name="socialmedia" id="socialmedia" required class="validate" >
+                <label for="socialmedia">Sosial media (facebook/instagram/twitter/linkdin)</label>
+              </div>
+              <div class="input-field  ">
+                <i class="material-icons prefix">email</i>
+                <input type="email" name="email" id="email" required class="validate">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field  ">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea name="message" id="message" required class="materialize-textarea"></textarea>
+                <label for="message">Pesan</label>
+              </div>
+              <button type="submit" class="btn black right">Kirim</button>      
+          </form>  
+        </div>  
+        </div>  
+        </div>                
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+  
+  <!-- kontak selesai -->
+
+  <!-- footer -->
+  <footer class="black">
+    <p class="light center white-text flow-text">Premiero Factory 2020</p>
+  </footer>
+  <!-- footer selesai -->
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
